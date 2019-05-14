@@ -51,8 +51,8 @@ int main(int argc, char* argv[])
 
 double funcao(double x)
 {
-    //return sin(x)*cos(2*x);
-    return sin(2*x)*cos(x);
+    return sin(x)*cos(2*x);
+   // return sin(2*x)*cos(x);
 }
 
 void init()
